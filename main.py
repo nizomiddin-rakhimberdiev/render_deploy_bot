@@ -38,7 +38,7 @@ async def contact_handler(message: types.Message):
     print(message.contact)
     await message.answer_contact(phone_number=message.contact.phone_number, first_name=message.contact.first_name)
 
-@app.post(WEBHOOK_PATH)
+@app.post('/webhook')
 async def webhook(request: Request):
     data = await request.json()
     update = Update(**data)
