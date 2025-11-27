@@ -7,7 +7,7 @@ import asyncio
 TOKEN = "8439567445:AAHnQ3OK-27cLIz5xTrUlM6_gzZlESVUhdw"
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
-WEBHOOK_URL = f"https://mybot.onrender.com/webhook"
+WEBHOOK_URL = f"https://mybot-9m40.onrender.com/webhook"
 app = FastAPI()
 
 types.ContentType
